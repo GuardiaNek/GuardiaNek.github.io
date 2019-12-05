@@ -1,0 +1,113 @@
+body
+{
+   margin: 0px;
+}
+
+header {
+   background-color: #F6B707;
+   padding: 35px;
+}
+
+section {
+   background-image: url(mp.png);
+   height: 100%;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 230px;
+}
+
+section.gallery {
+   background-image: url(gl.jpg);
+   height: 100%;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 230px;
+}
+
+section.price_list {
+   background-image: url(pl.jpg);
+   height: 100%;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 230px;
+}
+
+
+article {
+   background-color: rgba(248, 244, 244, 0.397);
+   padding: 250px;
+   margin: 0px;
+   color: rgb(56, 56, 56);
+   font-size: 30px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+article.gallery {
+   background-color: rgba(248, 244, 244, 0.397);
+   padding: 80px;
+   margin: 0px;
+   color: rgb(56, 56, 56);
+   font-size: 30px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-align: center;
+}
+
+article.price_list {
+   background-color: rgba(248, 244, 244, 0.397);
+   padding: 80px;
+   margin: 0px;
+   color: rgb(0, 0, 0);
+   font-size: 30px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-align: center;
+}
+
+article.index {
+   background-color: rgba(248, 244, 244, 0.397);
+   padding: 80px;
+   margin: 0px;
+   color: rgb(56, 56, 56);
+   font-size: 30px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-align: center;
+}
+
+
+footer {
+   background-color: rgb(247, 247, 247);
+   padding: 40px;
+   border-style: solid;;
+   border-color: #F6B707;
+   border-top-width: 3px;
+   border-bottom-width: 0px;
+   border-left-width: 0px;
+   border-right-width: 0px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   color: rgb(153, 150, 150);
+   text-align: right;
+}
+
+
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+
+li {
+   display: inline-flex;
+   margin: auto;
+   padding: 0px;
+   transform: scale(0.8);
+}
+
+table, th, td {
+   border: 2px solid black;
+   border-collapse: collapse;
+}
